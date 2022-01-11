@@ -1,0 +1,12 @@
+<h1>Movie Page</h1>
+<a href="/movies/create">Add a movie</a>
+
+{{#each movies}}
+    <div class="celebrity">
+        <span> title : {{this.title}}</span>
+        <span> genre : {{this.genre}}</span>
+        <span> plot : {{this.plot}}</span>
+        <span> cast : {{this.cast}}</span>
+    </div>
+<br>
+{{/each}}
